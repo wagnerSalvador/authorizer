@@ -1,0 +1,6 @@
+package com.caju.transaction.authorizer.domain.rule
+
+enum class Property(val value: String) {
+    MCC("mcc"),
+    MERCHANT_NAME("merchantName"),
+}
